@@ -5,7 +5,8 @@
       <map>
         <entry key="app/src/main/res/drawable/ic_delivery.xml" value="0.106" />
         <entry key="app/src/main/res/drawable/ic_send.xml" value="0.106" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2072072072072072" />
+        <entry key="app/src/main/res/layout/burger_main.xml" value="0.1" />
         <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.1" />
         <entry key="app/src/main/res/menu/nav_menu.xml" value="0.14583333333333334" />
       </map>
