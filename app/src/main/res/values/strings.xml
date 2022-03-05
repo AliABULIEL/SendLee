@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">SendLee</string>
+    <string name="app_name"></string>
     <string name="open">Open</string>
     <string name="close">Close</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_leaderboard">Leaderboard</string>
+    <string name="menu_store">Store</string>
+    <string name="menu_profile">Profile</string>
 </resources>
