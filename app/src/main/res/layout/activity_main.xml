@@ -11,21 +11,6 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Activity 1"
-            android:textColor="@color/black"
-            android:textSize="26sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            >
-
-        </TextView>
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -34,6 +19,76 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
+
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/logo"
+            android:layout_width="238dp"
+            android:layout_height="176dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="44dp"
+            android:clickable="false"
+            android:text="Welcome Back $User"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/logo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/burger_Header" />
+
+        <Button
+            android:id="@+id/sendPackage"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="206dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="44dp"
+            android:background="#FADA9A"
+            android:text="Send Package"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo"
+            app:rippleColor="#FADA9A" />
+
+        <Button
+            android:id="@+id/sendPackage2"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="206dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="44dp"
+            android:background="#FADA9A"
+            android:text="Send Package"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logo"
+            app:rippleColor="#FADA9A" />
+
+        <Button
+            android:id="@+id/DeliverPackage"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="206dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="48dp"
+            android:background="#FADA9A"
+            android:text="Deliver Package"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/sendPackage"
+            app:rippleColor="#FADA9A" />
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
     <com.google.android.material.navigation.NavigationView
